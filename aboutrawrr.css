@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+        background-image: url('background.jpg');
+        background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+        background-position: center; /* Mengatur gambar agar terpusat */
+        background-repeat: no-repeat; /* Mencegah gambar diulang */
+}
+
+.about-rawrr {
+    font-size: 20px; /* Ukuran font yang sesuai */
+    color: white; /* Warna teks */
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000; /* Warna dan posisi shadow untuk efek border */
+        background-color: #acdce3; /* Warna latar belakang kotak */
+    border-radius: 10px; /* Membuat sudut tumpul */
+    padding: 20px; /* Jarak antara teks dan border kotak */
+    max-width: 600px; /* Lebar maksimal kotak */
+    margin: 20px auto; /* Menjaga kotak tetap di tengah */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk tampilan yang lebih baik */
+}

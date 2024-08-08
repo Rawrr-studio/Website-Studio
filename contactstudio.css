@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+        background-image: url('bgcontact.jpg');
+        background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+        background-position: center; /* Mengatur gambar agar terpusat */
+        background-repeat: no-repeat; /* Mencegah gambar diulang */
+        font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('bgcontact.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.callme {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang semi-transparan */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto; /* Centerkan konten */
+    color: #333;
+}
+
+.callme h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.callme p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.callme strong {
+    color: #333;
+}
+
+.callme a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.callme a:hover {
+    text-decoration: underline;
+}
